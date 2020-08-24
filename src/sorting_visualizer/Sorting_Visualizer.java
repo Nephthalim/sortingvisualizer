@@ -64,7 +64,6 @@ public class Sorting_Visualizer extends JComponent {
 
 			}
 			g.drawString("Comparisons: " + comparisons, 15, HEIGHT - 30);
-			g.drawString("Speed: " + (15 - (speed / 10)), WIDTH - 225, HEIGHT - 22);
 			g.drawString("Press L to speed up", WIDTH - 150, HEIGHT - 30);
 			g.drawString("Press J to slow down", WIDTH - 150, HEIGHT - 10);
 		}
